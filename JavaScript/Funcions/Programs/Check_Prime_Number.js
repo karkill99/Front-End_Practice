@@ -9,7 +9,7 @@
 //         if(num%i===0){
 //             return false;
 //         }
-//     }    
+//     }
 //     return true;
 // }
 // // checkPrimeOrNot();
@@ -23,20 +23,21 @@
 
 num = parseInt(prompt("Enter Any Number"));
 // let num = 7;
-function fun (){
-    if(num<=1){
-        return false;
+function fun() {
+  if (num <= 1) {
+    return false;
+  }
+
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false;
     }
-    for(let i=2; i<num; i++){
-        if(num%i===0){
-            return false;
-        }
-    }
-    return true;
+  }
+  return true;
 }
 
-if(fun()=== true){
-    console.log("Num is Prime");
+if (fun() === true) {
+  console.log("Num is Prime");
 } else {
-    console.log("Num is Not Prime");
+  console.log("Num is Not Prime");
 }
