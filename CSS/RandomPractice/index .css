@@ -1,9 +1,9 @@
-h1{
+#ID{
     color: blueviolet;
     background-color: aqua;
     text-align: center;
 }
-h2{
+.ID{
     color: brown;
     background-color: rgb(62, 249, 96);
     text-align: center;
