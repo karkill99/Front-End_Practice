@@ -10,8 +10,31 @@
 
 // **********************************
 
-for (var i = 1; i <= 5; i++) {
-  setTimeout(() => {
-    console.log(i);
-  }, i*3000);
-}
+// for (var i = 1; i <= 5; i++) {
+//   setTimeout(() => {
+//     console.log(i);
+//   }, i*3000);
+// }
+
+// *********************************
+
+// var a = 10;
+// setTimeout(() => {
+//   console.log(a);
+// }, 3000);
+
+// ****************************
+
+// for (let i = 1; i <= 5; i++) {
+//   setTimeout(() => {
+//     console.log(i);
+//   }, i * 1000);
+// }
+
+// *********************
+var j = 10;
+setTimeout(() => {
+  console.log(j);
+}, 5000);
+
+console.log("Namaste JavaScript");
